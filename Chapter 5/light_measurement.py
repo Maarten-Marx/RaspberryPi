@@ -1,7 +1,7 @@
 import time
 import RPi.GPIO as GPIO
 
-capacitor_pin = 18
+capacitor_pin = 17
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
