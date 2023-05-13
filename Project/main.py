@@ -30,8 +30,6 @@ open_button = Button(13)
 ds = DistanceSensor(17, 27)
 ubeac = UBeac(UBEAC_URL, UBEAC_UID)
 
-enabled = True
-
 Shared.set_property("close_count", 0)
 
 prev_state = str(Shared.get_property("state"))
